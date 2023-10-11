@@ -1,0 +1,42 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --1st: #252526;
+    --2nd: #686b6b;
+    --3rd: #7395ae;
+    --4th: #557a95;
+    --5th: #b1a296;
+
+}
+
+header {
+    background-color: var(--3rd);
+    padding: 1.5rem;
+    border: solid var(--2nd) 3px;
+
+
+}
+
+nav {
+    background-color: var(3rd);
+    display: inline-block;
+    float: right;
+
+}
+
+nav a {
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--1st);
+}
+
+body {
+    background-color: var(--4th);
+    
+}
